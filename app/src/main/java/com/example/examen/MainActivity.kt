@@ -56,7 +56,10 @@ fun PantallaInicio(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.height(8.dp))
 
 
-        SeccionMovimientos(movimientos = listaTransacciones)
+        SeccionMovimientos(
+            movimientos = listaTransacciones,
+            modifier = Modifier.weight(1f)
+        )
 
     }
 }

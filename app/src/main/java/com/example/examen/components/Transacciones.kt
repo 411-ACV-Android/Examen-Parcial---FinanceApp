@@ -19,7 +19,7 @@ import com.example.examen.ui.theme.Positivo
 import com.example.examen.ui.theme.Negativo
 
 @Composable
-fun SeccionMovimientos(movimientos: List<Transaccion>) {
+fun SeccionMovimientos(movimientos: List<Transaccion>, modifier: Modifier) {
     Column(modifier = Modifier.padding(top = 16.dp)) {
         Row(
             modifier = Modifier
